@@ -1,0 +1,16 @@
+{
+  "name": "discord-link",
+  "version": "1.0.0",
+  "description": "Discord bot command bridge for Excel VBA — writes slash commands to a local queue file for VBA polling",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "keywords": ["discord", "vba", "excel", "command-bridge"],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
